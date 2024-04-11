@@ -11,7 +11,7 @@ export default defineConfig({
     setupFiles: 'test/vitest.setup.ts',
     include: ['**/?(*.)test.ts?(x)'],
     coverage: {
-      reporter: ['text', 'json', 'html', 'cobertura'],
+      reporter: ['text', 'json', 'html'],
     },
   }
 })
